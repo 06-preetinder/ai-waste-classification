@@ -36,8 +36,8 @@ waste-classification-ai/
 
 | Image | Prediction |
 |-------|------------|
-| ![](https://drive.google.com/file/d/1oI-3UcxSTm0gAVSOA17VmqzfXRTuYgdj/view?usp=drive_link) | `Metal` |
-| ![](https://drive.google.com/file/d/13HXWpD51nfLlWk7LIVPj95HUrWMT9aj7/view?usp=drive_link)   | `Paper`   |
+| ![view](https://drive.google.com/file/d/1oI-3UcxSTm0gAVSOA17VmqzfXRTuYgdj/view?usp=drive_link) | `Metal` |
+| ![view](https://drive.google.com/file/d/13HXWpD51nfLlWk7LIVPj95HUrWMT9aj7/view?usp=drive_link)   | `Paper`   |
 
 ---
 
