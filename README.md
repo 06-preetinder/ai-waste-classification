@@ -14,8 +14,8 @@ This project focuses on automating the classification of waste materials using d
 ## 🧠 Model Details
 
 - 🔍 *Architecture*: EfficientNetB0 (Transfer Learning)
-- 📈 *Training Accuracy*: ~71%
-- 🧪 *Test Accuracy*: ~67%
+- 📈 *Training Accuracy*: ~78(apx)%
+- 🧪 *Test Accuracy*: ~60(apx)%
 - 🧩 *Classes*: cardboard, glass, metal, paper, plastic
 
 ---
