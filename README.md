@@ -36,8 +36,8 @@ waste-classification-ai/
 
 | Image | Prediction |
 |-------|------------|
-| ![](test_images/plastic1.jpg) | `Plastic` |
-| ![](test_images/paper1.jpg)   | `Paper`   |
+| ![](https://drive.google.com/file/d/1oI-3UcxSTm0gAVSOA17VmqzfXRTuYgdj/view?usp=drive_link) | `Metal` |
+| ![](https://drive.google.com/file/d/13HXWpD51nfLlWk7LIVPj95HUrWMT9aj7/view?usp=drive_link)   | `Paper`   |
 
 ---
 
