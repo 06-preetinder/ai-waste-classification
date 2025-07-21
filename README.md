@@ -46,7 +46,7 @@ waste-classification-ai/
 > Due to size limits, the dataset and trained model are stored in Google Drive.
 
 - 📦 [Download Dataset (Split into Train/Val/Test)](https://drive.google.com/your_dataset_link)
-- 🤖 [Download Trained Model (.h5)](https://drive.google.com/your_model_link)
+- 🤖 [Download Trained Model (.h5)](https://drive.google.com/file/d/1lOMha3wCnn2NwsqzvXYHnwEMG2lH4Vtx/view?usp=drive_link)
 
 ---
 
