@@ -2,7 +2,7 @@
 
 This folder contains all the Jupyter notebooks used in the project.
 
-1. `1_data_preprocessing_and_training.ipynb`  
+1. `1_data_preprocessing.ipynb`  
    - Loads dataset
    - Applies preprocessing
    - Trains model using EfficientNetB0
