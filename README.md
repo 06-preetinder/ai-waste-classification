@@ -20,16 +20,21 @@ This project focuses on automating the classification of waste materials using d
 
 ---
 
-## 🗂 Project Structure
-waste-classification-ai/
+## 📁 Project Structure
+
+```
 ├── notebooks/
-│ ├── 1_data_preprocessing_and_training.ipynb
-│ └── 2_model_evaluation_and_testing.ipynb
-├── test_images/ # Real-world images tested
-├── saved_model/ # Google Drive link
-├── dataset/ # Google Drive link
+│   └── 1_data_preprocessing_and_training.ipynb
+├── saved_model/
+│   └── README.md (Drive link to download model)
+├── dataset/
+│   └── README.md (Drive link to download dataset)
+├── test_images/
+│   └── README.md (Used for real-world testing)
 ├── requirements.txt
 └── README.md
+```
+
 ---
 
 ## 🧪 Sample Predictions
