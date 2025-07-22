@@ -11,9 +11,6 @@ This project focuses on automating the classification of waste materials using d
 
 ---
 
-## 🧠 Model Details
-
-
 ## 🧠 Model Architecture
 
 A simple yet effective **scratch-built CNN** was trained using the Keras `Sequential` API.
