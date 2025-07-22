@@ -1,10 +1,32 @@
-🧠 Model Architecture
-This project uses a Convolutional Neural Network (CNN) built from scratch using TensorFlow and Keras. The model was trained to classify waste into six categories: cardboard, glass, metal, paper, plastic, and trash.
+# ♻️ Waste Classification using Custom CNN
 
-🧩 Architecture:
-python
-Copy
-Edit
+This is a deep learning project built to classify images of waste into six categories: **cardboard**, **glass**, **metal**, **paper**, **plastic**, and **trash**.  
+It uses a **Convolutional Neural Network (CNN)** model built **from scratch using TensorFlow and Keras**, trained on a real-world dataset.
+
+---
+
+## 📁 Project Structure
+
+```
+├── notebooks/
+│   └── 1_data_preprocessing_and_training.ipynb
+├── saved_model/
+│   └── README.md (Drive link to download model)
+├── dataset/
+│   └── README.md (Drive link to download dataset)
+├── test_images/
+│   └── README.md (Used for real-world testing)
+├── requirements.txt
+└── README.md
+```
+
+---
+
+## 🧠 Model Architecture
+
+A simple yet effective **scratch-built CNN** was trained using the Keras `Sequential` API.
+
+```python
 model = Sequential([
     Conv2D(32, (3,3), activation='relu', input_shape=(224, 224, 3)),
     MaxPooling2D(2,2),
@@ -14,22 +36,103 @@ model = Sequential([
     Dense(128, activation='relu'),
     Dense(6, activation='softmax')
 ])
-✅ Model Highlights:
-Built from scratch without pre-trained weights
+```
 
-Lightweight and fast to train — ideal for basic systems or beginner projects
+---
 
-Trained on a real-world waste classification dataset (~2,500+ images)
+## 📊 Results
 
-📈 Performance:
-Training Accuracy: ~77%
+| Metric         | Value      |
+|----------------|------------|
+| **Accuracy**   | ~77%       |
+| **Loss**       | ~0.60      |
+| **Real Image Testing** | ✅ Successful |
 
-Training Loss: ~0.60
+- Trained for up to 30 epochs with early stopping
+- Performance evaluated on test data and real-world phone images
+- Dataset was moderately imbalanced
 
-Tested on real-world images captured via phone camera
+---
 
-Accuracy may vary depending on class imbalance and image noise
+## 📦 Dataset
 
-🔗 Download the trained model (.h5) from Google Drive:
+The dataset consists of images of waste materials categorized into:
 
-[Download Model](https://drive.google.com/file/d/1lOMha3wCnn2NwsqzvXYHnwEMG2lH4Vtx/view?usp=sharing)
+- `cardboard`
+- `glass`
+- `metal`
+- `paper`
+- `plastic`
+- `trash`
+
+---
+
+## 🤖 Model Download
+
+The trained model has been saved in `.h5` format using Keras.
+
+🔗 [Download Model](https://drive.google.com/file/d/1lOMha3wCnn2NwsqzvXYHnwEMG2lH4Vtx/view?usp=sharing)
+
+---
+
+## 🧪 Real-World Testing
+
+Sample test images captured from a phone were used to verify model performance.  
+These images were placed in the `test_images/` folder and predictions were made using `model.predict()` after proper preprocessing.
+
+You can test your own images by uploading them to the same folder and running the final prediction notebook.
+
+---
+
+## 💻 How to Run Locally
+
+1. Clone this repo:
+   ```bash
+   git clone https://github.com/yourusername/waste-classification-ai.git
+   cd waste-classification-ai
+   ```
+
+2. Create and activate a virtual environment (optional but recommended):
+   ```bash
+   python -m venv venv
+   source venv/bin/activate  # or venv\Scripts\activate on Windows
+   ```
+
+3. Install dependencies:
+   ```bash
+   pip install -r requirements.txt
+   ```
+
+4. Run the Jupyter notebook:
+   ```bash
+   jupyter notebook
+   ```
+
+---
+
+## 🚀 Streamlit UI (Coming Soon)
+
+We are working on a **Streamlit-based UI** to allow:
+- 📸 Real-time prediction via webcam or image upload
+- 📊 Class probability visualization
+- ⚡ Fast local execution
+
+Stay tuned!
+
+---
+
+## 🙌 Acknowledgments
+
+- Dataset: [Kaggle Waste Classification Dataset](https://www.kaggle.com/datasets)
+- TensorFlow + Keras for training
+- Google Colab for experimentation
+- GitHub for project versioning
+
+---
+
+## 📧 Contact
+
+**Preetinder Singh**  
+🖥️ GitHub: [06-preetinder](https://github.com/06-preetinder)  
+
+
