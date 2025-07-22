@@ -9,13 +9,15 @@ It uses a **Convolutional Neural Network (CNN)** model built **from scratch usin
 
 ```
 ├── notebooks/
-│   └── 1_data_preprocessing_and_training.ipynb
+│   └── 1_data_preprocessing.ipynb
+│   └── 2_model_testing_and_visualization.ipynb
+│   └── README.md 
 ├── saved_model/
-│   └── README.md (Drive link to download model)
+│   └── model.md (Drive link to download model)
 ├── dataset/
-│   └── README.md (Drive link to download dataset)
-├── test_images/
-│   └── README.md (Used for real-world testing)
+│   └── dataset.md (Drive link to download dataset)
+│   └── split_dataset.md (Drive link to download split dataset)
+│   └── test_images.md (Used for real-world testing)
 ├── requirements.txt
 └── README.md
 ```
