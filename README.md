@@ -1,6 +1,6 @@
 # ♻ AI-Based Waste Classification Project
 
-> Built with TensorFlow + EfficientNet + Google Colab  
+> Built with TensorFlow | Custom Scratch CNN | Trained in Google Colab
 > Predicts type of waste from image input (Plastic, Paper, Glass, etc.)
 
 ---
