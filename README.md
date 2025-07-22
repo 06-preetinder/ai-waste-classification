@@ -13,7 +13,22 @@ This project focuses on automating the classification of waste materials using d
 
 ## 🧠 Model Details
 
-- 🔍 *Architecture*: EfficientNetB0 (Transfer Learning)
+
+## 🧠 Model Architecture
+
+A simple yet effective **scratch-built CNN** was trained using the Keras `Sequential` API.
+
+```python
+model = Sequential([
+    Conv2D(32, (3,3), activation='relu', input_shape=(224, 224, 3)),
+    MaxPooling2D(2,2),
+    Conv2D(64, (3,3), activation='relu'),
+    MaxPooling2D(2,2),
+    Flatten(),
+    Dense(128, activation='relu'),
+    Dense(6, activation='softmax')
+])
+```
 - 📈 *Training Accuracy*: ~78(apx)%
 - 🧪 *Test Accuracy*: ~60(apx)%
 - 🧩 *Classes*: cardboard, glass, metal, paper, plastic
