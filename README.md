@@ -9,7 +9,7 @@
 
 ## 📌 Overview
 
-This project focuses on automating the classification of waste materials using deep learning, specifically transfer learning with EfficientNet. The goal is to aid proper waste sorting for recycling and environmental management.
+This project focuses on automating the classification of waste materials using deep learning, specifically a custom Convolutional Neural Network (CNN) built from scratch.The goal is to aid proper waste sorting for recycling and environmental management using image-based classification.
 
 ---
 
