@@ -28,8 +28,8 @@ model = Sequential([
     Dense(6, activation='softmax')
 ])
 ```
-- 📈 *Training Accuracy*: ~78(apx)%
-- 🧪 *Test Accuracy*: ~60(apx)%
+- 📈 *Training Accuracy*: ~84(apx)%
+- 🧪 *Test Accuracy*: ~40(apx)%
 - 🧩 *Classes*: cardboard, glass, metal, paper, plastic
 
 ---
